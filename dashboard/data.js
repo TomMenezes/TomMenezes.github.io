@@ -261,7 +261,6 @@ var bairesdev = {
                     if (project == projectData || bairesdev.btracker.dashboard.data.projects[workspace].length == 1) project = projectData + " (" + workspace + ")";
                 });
                 $('#txtProject').html(project);
-                console.log(project);
 
                 $(".dropdown-menu li a").click(function () {
                     $(".btn > .title:first-child").text($(this).text());
